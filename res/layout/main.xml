@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<EditText android:id="@+id/lowest" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:singleLine="true"
+		android:inputType="numberDecimal" android:text="6" />
+
+	<EditText android:id="@+id/highest" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:singleLine="true"
+		android:inputType="numberDecimal" android:text="12" />
+
+	<EditText android:id="@+id/initial" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:singleLine="true"
+		android:inputType="numberDecimal" android:text="34" />
+
+	<Button android:id="@+id/submit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="bottom"
+		android:text="Submit" />
+	<Button android:id="@+id/exit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="bottom"
+		android:text="Exit" />
+	<TextView android:id="@+id/sent" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:minLines="7"
+		android:singleLine="false" android:text="Sent: " android:inputType="text" />
+
+
+</LinearLayout>
